@@ -10,7 +10,7 @@
 #         self.right = right
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        # Recursive Solution
+        # Recursive Solution O(N)
         if(root == None): # if node is empty, case is for if tree is entirely empty
             return None
         if(root.left == None and root.right == None): # if tree has one node or if the node has no children
