@@ -10,9 +10,9 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """     
         if(k > 0):
-            for _ in range(k):
+            for _ in range(k): # number of times to rotate array
 
-                nums.insert(0,nums.pop(len(nums)-1))
+                nums.insert(0,nums.pop(len(nums)-1)) # pop the value from the back then insert the value that was at the back to the front
        
 
 
